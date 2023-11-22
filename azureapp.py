@@ -5,8 +5,8 @@ import openai
 from PyPDF2 import PdfReader
 
 # Azure OpenAI API URL and key
-azure_api_url = "https://dwspoc.openai.azure.com/openai/deployments/GPTDavinci/completions?api-version=2022-12-01"
-azure_api_key = "bd38ee31e244408cacab3e1dd4c32221"   # Replace with your Azure OpenAI API key
+azure_api_url = ""
+azure_api_key = ""   # Replace with your Azure OpenAI API key
 
 # Function to have a chat-like conversation with the document
 def chat_with_document(document_text, user_message):
